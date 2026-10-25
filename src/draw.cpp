@@ -250,7 +250,7 @@ void set_pivot(int x, int y)
 void draw(SDL_Surface *surface)
 {
   SDL_FillRect(surface, nullptr, SDL_MapRGB(surface->format, 255, 255, 255));
-  Uint32 red = SDL_MapRGB(surface->format, 220, 30, 30);
+  Uint32 red = SDL_MapRGB(surface->format, 30, 90, 220);
   Uint32 gray = SDL_MapRGB(surface->format, 120, 120, 120);
 
 
